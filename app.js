@@ -11,8 +11,8 @@ app.get('/mecca/:product', requestComming, function(req, res){
     res.send(`mecca ${req.params['product']}`);
 });
 
-app.get('/carsales', function(req, res){
-    res.send("carsales")
+app.get('/carsales/:item', function(req, res){
+    res.send(`carsales ${req.params['item']}`)
 });
 
 app.listen(5777,()=>{
