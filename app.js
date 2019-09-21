@@ -1,5 +1,5 @@
 const express = require("express");
-//middleware
+//middleware 1123123213123123
 function requestComming(req, res, next) {
     if(!req.params['product'].indexOf('mecca') > 0)
     {
