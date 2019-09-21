@@ -2,7 +2,7 @@ const express = require("express");
 //middleware 1123123213123123
 function requestComming(req, res, next) {
 
-    console.log('master');
+    console.log('master'+'dev');
     next();
 }
 
