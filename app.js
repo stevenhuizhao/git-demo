@@ -1,11 +1,8 @@
 const express = require("express");
 //middleware 1123123213123123
 function requestComming(req, res, next) {
-    if(!req.params['product'].indexOf('mecca') > 0)
-    {
-        res.send('error');
-    }
-    console.log('request is comming');
+
+    console.log('master');
     next();
 }
 
